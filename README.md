@@ -7,7 +7,8 @@ Laravelにてsimplenoteっぽいのを実装
 ## Usage 
 
 0. 前提条件<br>
-node.jsのインストール
+* node.jsのインストール
+* MAMPのインストール
 2. kentoOnodera/php04ファイルをダウンロード(このフォルダ)<br>
 3. 任意のフォルダを作成
 4. Laravel6系のインストール<br>
@@ -16,11 +17,11 @@ composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist<br>
 
 3. .envをの下記のように記入<br>
 DB_CONNECTION=mysql<br>
-DB_HOST=[自身のローカル環境を確認]<br>
-DB_PORT=[自身のローカル環境を確認]<br>
+DB_HOST=[自身のMAMPを確認]<br>
+DB_PORT=[自身のMAMPを確認]<br>
 DB_DATABASE=simplenote<br>
-DB_USERNAME=[自身のローカル環境を確認]<br>
-DB_PASSWORD=[自身のローカル環境を確認]<br>
+DB_USERNAME=[自身のMAMPを確認]<br>
+DB_PASSWORD=[自身のMAMPを確認]<br>
 DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br>
 ※MAMPにて実装しているためDB_HOST、DB_PORT、DB_USERNAME、DB_PASSWORDは自身のローカル環境を確認<br>
 
