@@ -45,7 +45,7 @@ php artisan serve<br>
 【E-Mail Address】 kento.onodera@dakara.work<br>
 【Password 】kento626<br>
 
-## file
+## File
 1. コントローラーにて基本処理を実装<br>
 app/HTTP/Controllers/HomeController.php
 
@@ -87,7 +87,7 @@ app/databese/maigration/2021_10_14_054122_add_tag_id_to_memos_table
 ## Reference
 https://www.youtube.com/watch?v=NLqO2b3xEW0&t=5228s
 
-## 今回の課題で特に勉強になったこと
+## My growth
 * Laravel基礎理解
 * MVCモデル
 * リレーショナルデータベースがすごい!
