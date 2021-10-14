@@ -5,6 +5,8 @@ Simplenoteクローン
 Laravelにてsimplenoteっぽいのを実装
 
 ## Usage 
+前提条件
+* nodeのインストール
 1. kentoOnodera/php04ファイルをダウンロード<br>
 2. 任意のフォルダを作成
 3. Laravel6系のインストール<br>
