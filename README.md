@@ -5,8 +5,14 @@ Simplenoteクローン
 Laravelにてsimplenoteっぽいのを実装
 
 ## Usage 
+1. Laravel6系のインストール<br>
+composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist
+
+2. Laravel/UIのインストール
+composer require laravel/ui "^1.2"
 
 
+## file
 1. コントローラーにて基本処理を実装<br>
 app/HTTP/Controllers/HomeController.php
 
