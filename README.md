@@ -5,33 +5,33 @@ Simplenoteクローン
 Laravelにてsimplenoteっぽいのを実装
 
 ## Usage 
-1. kentoOnodera/php04ファイルをダウンロード
+1. kentoOnodera/php04ファイルをダウンロード<br>
 2. Laravel6系のインストール<br>
-ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
-composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力<br>
+composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist<br>
 
 3. .envをの下記のように記入<br>
 　※MAMPにて実装しているためDB_HOST、DB_PORT、DB_USERNAME、DB_PASSWORDは自身のローカル環境を確認<br>
-DB_CONNECTION=mysql
-DB_HOST=[自身のローカル環境を確認]
-DB_PORT=[自身のローカル環境を確認]
-DB_DATABASE=simplenote
-DB_USERNAME=[自身のローカル環境を確認]
-DB_PASSWORD=[自身のローカル環境を確認]
-DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock
+DB_CONNECTION=mysql<br>
+DB_HOST=[自身のローカル環境を確認]<br>
+DB_PORT=[自身のローカル環境を確認]<br>
+DB_DATABASE=simplenote<br>
+DB_USERNAME=[自身のローカル環境を確認]<br>
+DB_PASSWORD=[自身のローカル環境を確認]<br>
+DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br>
 
-4. Laravel/UIのインストール
-ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
-composer require laravel/ui "^1.2"
+4. Laravel/UIのインストール<br>
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力<br>
+composer require laravel/ui "^1.2"<br>
 
-5. MAMPをスタート
+5. MAMPをスタート<br>
 
-6. サーバー立ち上げ
-ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
-php artisan serve
+6. サーバー立ち上げ<br>
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力<br>
+php artisan serve<br>
 
-7. 自信のMAMP環境にアクセス
-例)http://127.0.0.1:8000/
+7. 自信のMAMP環境にアクセス<br>
+例)http://127.0.0.1:8000/<br>
 
 ## file
 1. コントローラーにて基本処理を実装<br>
