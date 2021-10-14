@@ -51,9 +51,7 @@ php artisan serve
 9. 自信のMAMP環境にアクセス<br>
 例)http://127.0.0.1:8000/<br>
 
-10. ログインで下記を入力<br>
-【E-Mail Address】 kento.onodera@dakara.work<br>
-【Password 】kento626<br>
+10. 右上のRegisterから登録<br>
 
 ## File
 1. コントローラーにて基本処理を実装<br>
