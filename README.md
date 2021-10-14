@@ -15,7 +15,12 @@ Simplenoteクローン
 2. 任意のフォルダを作成
 3. Laravel6系のインストール<br>
 2で作成した[任意のフォルダ]配下で下記コマンドを入力<br>
-composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist<br>
+```言語:Laravel6系のインストール
+コード
+```
+```java:title
+composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist //コード
+```
 
 4. .envをの下記のように記入<br>
 DB_CONNECTION=mysql<br>
