@@ -1,9 +1,6 @@
 ## Name
 Simplenoteクローン
 
-## Features
-Laravelにてsimplenoteっぽいのを実装
-
 ## Author
 * 小野寺剣人
 * ジーズアカデミーDev21
