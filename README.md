@@ -7,9 +7,10 @@ Laravelにてsimplenoteっぽいのを実装
 ## Author
 * 小野寺剣人
 * ジーズアカデミーDev21
+* twitter: https://twitter.com/kntonodera
+* facebook: https://www.facebook.com/profile.php?id=100057938040349
 
 ## Usage 
-
 0. 前提条件<br>
 * node.jsのインストール
 * MAMPのインストール
