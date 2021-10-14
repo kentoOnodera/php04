@@ -19,8 +19,8 @@ resources/views/layouts/app.blade.php
 4. ログイン、新規登録のレイアウトテンプレート<br>
 resources/views/layouts/auth.blade.php
 
-5. noteの追加用ブレード<br>
-resources/views/create.blade.php
+5.  ホームのブレード<br>
+resources/views/home.blade.php
 
 6. noteの追加用ブレード<br>
 resources/views/create.blade.php
@@ -28,10 +28,7 @@ resources/views/create.blade.php
 7. すでにあるnoteの編集用ブレード<br>
 resources/views/edit.blade.php
 
-8. ログインした直後にアクセスするブレード<br>
-resources/views/edit.blade.php
-
-9. DB情報<br>
+8. DB情報<br>
 * TagのDB
   app/Tag.php<br>
   app/databese/maigration/2021_10_12_044152_create_memos_table.php
