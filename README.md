@@ -41,7 +41,7 @@ resources/views/edit.blade.php
   app/Memo.php
   2021_10_12_044334_create_tags_table.php
 
-*MemoとTagのリレーショナルのためにmemosにtag_idを追加
+* MemoとTagのリレーショナルのためにmemosにtag_idを追加
 app/databese/maigration/2021_10_14_054122_add_tag_id_to_memos_table
 
 ## Author
