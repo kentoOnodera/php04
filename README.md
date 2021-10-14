@@ -8,7 +8,7 @@ Laravelにてsimplenoteっぽいのを実装
 
 0. 前提条件<br>
 node.jsのインストール
-2. kentoOnodera/php04ファイルをダウンロード<br>
+2. kentoOnodera/php04ファイルをダウンロード(このフォルダ)<br>
 3. 任意のフォルダを作成
 4. Laravel6系のインストール<br>
 2で作成した[任意のフォルダ]配下で下記コマンドを入力<br>
