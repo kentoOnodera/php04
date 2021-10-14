@@ -5,10 +5,12 @@ Simplenoteクローン
 Laravelにてsimplenoteっぽいのを実装
 
 ## Usage 
-1. Laravel6系のインストール<br>
+1. kentoOnodera/php04ファイルをダウンロード
+2. Laravel6系のインストール<br>
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
 composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist
 
-2. .envをの下記のように記入<br>
+3. .envをの下記のように記入<br>
 　※MAMPにて実装しているためDB_HOST、DB_PORT、DB_USERNAME、DB_PASSWORDは自身のローカル環境を確認<br>
 DB_CONNECTION=mysql
 DB_HOST=[自身のローカル環境を確認]
@@ -18,9 +20,18 @@ DB_USERNAME=[自身のローカル環境を確認]
 DB_PASSWORD=[自身のローカル環境を確認]
 DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock
 
-3. Laravel/UIのインストール
+4. Laravel/UIのインストール
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
 composer require laravel/ui "^1.2"
 
+5. MAMPをスタート
+
+6. サーバー立ち上げ
+ダウンロードしたkentoOnodera/php04配下で下記コマンドを入力
+php artisan serve
+
+7. 自信のMAMP環境にアクセス
+例)http://127.0.0.1:8000/
 
 ## file
 1. コントローラーにて基本処理を実装<br>
