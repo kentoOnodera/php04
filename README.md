@@ -33,15 +33,15 @@ resources/views/edit.blade.php
 
 9. DB情報
 * TagのDB
-  app/Tag.php
+  app/Tag.php<br>
   app/databese/maigration/2021_10_12_044152_create_memos_table.php
 
 
 * MemoのDB
-  app/Memo.php
+  app/Memo.php<br>
   2021_10_12_044334_create_tags_table.php
 
-* MemoとTagのリレーショナルのためにmemosにtag_idを追加
+* MemoとTagのリレーショナルのためにmemosにtag_idを追加<br>
 app/databese/maigration/2021_10_14_054122_add_tag_id_to_memos_table
 
 ## Author
