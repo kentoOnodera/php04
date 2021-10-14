@@ -4,6 +4,10 @@ Simplenoteクローン
 ## Features
 Laravelにてsimplenoteっぽいのを実装
 
+## Author
+* 小野寺剣人
+* ジーズアカデミーDev21
+
 ## Usage 
 
 0. 前提条件<br>
@@ -80,9 +84,6 @@ resources/views/edit.blade.php
 * MemoとTagのリレーショナルのためにmemosにtag_idを追加<br>
 app/databese/maigration/2021_10_14_054122_add_tag_id_to_memos_table
 
-## Author
-* 小野寺剣人
-* ジーズアカデミーDev21
  
 ## Reference
 https://www.youtube.com/watch?v=NLqO2b3xEW0&t=5228s
