@@ -12,6 +12,8 @@ Simplenoteクローン
 * node.jsのインストール
 * MAMPのインストール
 1. kentoOnodera/php04ファイルをダウンロード(このフォルダ)<br>
+<a href="/kentoOnodera/php04/archive/refs/heads/main.zip">ダウンロード</a><br>
+2. 任意のフォルダを作成
 2. 任意のフォルダを作成
 3. Laravel6系のインストール<br>
 2で作成した[任意のフォルダ]配下で下記コマンドを入力<br>
