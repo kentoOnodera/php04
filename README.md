@@ -19,7 +19,7 @@ Simplenoteクローン
 composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist
 ```
 
-4. .envをの下記のように記入<br>
+4. .envを下記のように記入<br>
 DB_CONNECTION=mysql<br>
 DB_HOST=[自身のMAMPを確認]<br>
 DB_PORT=[自身のMAMPを確認]<br>
