@@ -7,31 +7,31 @@ Laravelにてsimplenoteっぽいのを実装
 ## Usage 
 
 
-1. コントローラーにて基本処理を実装
+1. コントローラーにて基本処理を実装<br>
 app/HTTP/Controllers/HomeController.php
 
-2. 基本処理の共通化
+2. 基本処理の共通化<br>
 app/HTTP/AppServiceProvider
 
-3. メインのレイアウトテンプレート
+3. メインのレイアウトテンプレート<br>
 resources/views/layouts/app.blade.php
 
-4. ログイン、新規登録のレイアウトテンプレート
+4. ログイン、新規登録のレイアウトテンプレート<br>
 resources/views/layouts/auth.blade.php
 
-5. noteの追加用ブレード
+5. noteの追加用ブレード<br>
 resources/views/create.blade.php
 
-6. noteの追加用ブレード
+6. noteの追加用ブレード<br>
 resources/views/create.blade.php
 
-7. すでにあるnoteの編集用ブレード
+7. すでにあるnoteの編集用ブレード<br>
 resources/views/edit.blade.php
 
-8. ログインした直後にアクセスするブレード
+8. ログインした直後にアクセスするブレード<br>
 resources/views/edit.blade.php
 
-9. DB情報
+9. DB情報<br>
 * TagのDB
   app/Tag.php<br>
   app/databese/maigration/2021_10_12_044152_create_memos_table.php
