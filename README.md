@@ -29,7 +29,7 @@ DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock<br>
 2で作成した[任意のフォルダ]配下で下記コマンドを入力<br>
 composer require laravel/ui "^1.2"<br>
 
-5. 1でダウンロードしたフォルダを[任意のフォルダ]にドラック＆ドロップ
+5. 1でダウンロードしたフォルダを[任意のフォルダ]にドラック＆ドロップ<br>
 置き換えますか？と聞かれたら置き換える
 
 5. MAMPをスタート<br>
