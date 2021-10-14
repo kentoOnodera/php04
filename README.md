@@ -8,7 +8,17 @@ Laravelにてsimplenoteっぽいのを実装
 1. Laravel6系のインストール<br>
 composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist
 
-2. Laravel/UIのインストール
+2. .envをの下記のように記入<br>
+　※MAMPにて実装しているためDB_HOST、DB_PORT、DB_USERNAME、DB_PASSWORDは自身のローカル環境を確認<br>
+DB_CONNECTION=mysql
+DB_HOST=[自身のローカル環境を確認]
+DB_PORT=[自身のローカル環境を確認]
+DB_DATABASE=simplenote
+DB_USERNAME=[自身のローカル環境を確認]
+DB_PASSWORD=[自身のローカル環境を確認]
+DB_SOCKET=/Applications/MAMP/tmp/mysql/mysql.sock
+
+3. Laravel/UIのインストール
 composer require laravel/ui "^1.2"
 
 
