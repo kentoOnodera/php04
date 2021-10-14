@@ -6,11 +6,12 @@ Laravelにてsimplenoteっぽいのを実装
 
 ## Usage 
 
-基本処理の共通化
-app/HTTP/AppServiceProvider
 
-###基本処理
+###コントローラーにて基本処理を実装
 app/HTTP/Controllers/HomeController.php
+
+###基本処理の共通化
+app/HTTP/AppServiceProvider
 
 ###メインのレイアウトテンプレート
 resources/views/layouts/app.blade.php
