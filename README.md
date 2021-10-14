@@ -15,7 +15,7 @@ Simplenoteクローン
 2. 任意のフォルダを作成
 3. Laravel6系のインストール<br>
 2で作成した[任意のフォルダ]配下で下記コマンドを入力<br>
-```Laravel6系のインストール
+```java:Laravel6系のインストール
 composer create-project laravel/laravel simplenote "6.0.*" --prefer-dist //コード
 ```
 
